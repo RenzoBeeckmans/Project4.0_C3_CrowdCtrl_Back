@@ -25,7 +25,7 @@ namespace Project4._0_C3_CrowdCtrl_Back.Controllers
             return await _context.Events.ToListAsync();
         }
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetEventById(int id)
         {
             var @event = await _context.Events.FindAsync(id);

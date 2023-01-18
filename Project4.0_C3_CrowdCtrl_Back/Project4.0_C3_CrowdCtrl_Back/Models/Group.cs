@@ -2,7 +2,7 @@
 {
     public class Group
     {
-        public int GroupID { get; set; }
+        public int GroupId { get; set; }
         public string Name { get; set; }
         public int ZoneID { get; set; }
         public int EventID { get; set; }
