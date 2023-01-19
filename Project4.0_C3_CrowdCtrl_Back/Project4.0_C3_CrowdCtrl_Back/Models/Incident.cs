@@ -6,11 +6,11 @@
         public string Name { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public int EventId { get; set; }
-        public int RecordingDeviceId { get; set; }
-        public string Mood { get; set; }
+        public double Accuracy { get; set; }
+        public int EventRecordingDeviceId { get; set; }
+        public int MoodTypeId { get; set; }
         public List<Feedback> Feedbacks { get; set; } = new List<Feedback>();
-        public RecordingDevice RecordingDevice { get; set; }
-        public Event Event { get; set; }
+        public RecordingDevice EventRecordingDevice { get; set; }
+        public MoodType MoodType { get; set; }
     }
 }

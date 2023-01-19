@@ -4,7 +4,7 @@
     {
         public int ZoneId { get; set; }
         public string Name { get; set; }
-        public List<RecordingDevice> Devices { get; set; } = new List<RecordingDevice>();
+        public List<EventRecordingDevice> EventRecordingDevices { get; set; } = new List<EventRecordingDevice>();
         public List<Group> Groups { get; set; } = new List<Group>();
     }
 }

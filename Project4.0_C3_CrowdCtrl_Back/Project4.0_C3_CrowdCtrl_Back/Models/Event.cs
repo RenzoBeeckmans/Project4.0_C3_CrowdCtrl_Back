@@ -17,6 +17,6 @@ namespace Project4._0_C3_CrowdCtrl_Back.Models
         [JsonIgnore]
         public List<Group>? Groups { get; set; } = new List<Group>();
         [JsonIgnore]
-        public List<Incident>? Incidents { get; set; } = new List<Incident>();   
+        public List<EventRecordingDevice>? EventRecordingDevices { get; set; } = new List<EventRecordingDevice>();   
     }
 }
