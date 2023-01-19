@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renco\\OneDrive\\Documenten\\3e Bachelor Semester 1\\Project 4\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj": {}
+    "C:\\Users\\vande\\Documents\\IT Factory\\3APP\\Project 4.0\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renco\\OneDrive\\Documenten\\3e Bachelor Semester 1\\Project 4\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj": {
+    "C:\\Users\\vande\\Documents\\IT Factory\\3APP\\Project 4.0\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renco\\OneDrive\\Documenten\\3e Bachelor Semester 1\\Project 4\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj",
+        "projectUniqueName": "C:\\Users\\vande\\Documents\\IT Factory\\3APP\\Project 4.0\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj",
         "projectName": "Project4.0_C3_CrowdCtrl_Back",
-        "projectPath": "C:\\Users\\renco\\OneDrive\\Documenten\\3e Bachelor Semester 1\\Project 4\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj",
-        "packagesPath": "C:\\Users\\renco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renco\\OneDrive\\Documenten\\3e Bachelor Semester 1\\Project 4\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\obj\\",
+        "projectPath": "C:\\Users\\vande\\Documents\\IT Factory\\3APP\\Project 4.0\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back.csproj",
+        "packagesPath": "C:\\Users\\vande\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vande\\Documents\\IT Factory\\3APP\\Project 4.0\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\Project4.0_C3_CrowdCtrl_Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\renco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vande\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
