@@ -1,4 +1,6 @@
-﻿namespace Project4._0_C3_CrowdCtrl_Back.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Project4._0_C3_CrowdCtrl_Back.Models
 {
     public class Incident
     {
@@ -9,8 +11,11 @@
         public int EventId { get; set; }
         public int RecordingDeviceId { get; set; }
         public string Mood { get; set; }
+        [JsonIgnore]
         public List<Feedback> Feedbacks { get; set; } = new List<Feedback>();
+        [JsonIgnore]
         public RecordingDevice RecordingDevice { get; set; }
+        [JsonIgnore]
         public Event Event { get; set; }
     }
 }

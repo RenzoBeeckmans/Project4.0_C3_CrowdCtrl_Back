@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.Text.Json.Serialization;
 
 namespace Project4._0_C3_CrowdCtrl_Back.Models
 {
@@ -9,6 +10,7 @@ namespace Project4._0_C3_CrowdCtrl_Back.Models
         public int LastName { get; set; }
         public string Email { get; set; }
         public string Role { get; set; }
+        [JsonIgnore]
 
         public List<EventUser> EventUsers { get; set; } = new List<EventUser>();
     }
