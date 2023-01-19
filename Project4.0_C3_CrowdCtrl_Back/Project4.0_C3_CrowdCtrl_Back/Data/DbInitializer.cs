@@ -98,9 +98,50 @@ namespace Project4._0_C3_CrowdCtrl_Back.Data
                     new User { FirstName = "Jari", LastName = "Van de Vel", Email = "vandeveljari@outlook.com", Role = "Admin" },
                     new User { FirstName = "Renzo", LastName = "Beeckmans", Email = "rebe11@gmail.com", Role = "TeamLead" },
                     new User { FirstName = "Robin", LastName = "Ram", Email = "robin@ram.com", Role = "TeamLead" },
-                    new User { FirstName = "Jesse", LastName = "Dierckx", Email = "jessedierckx@gmail.com", Role = "Guard" },
-                    new User { FirstName = "Tim", LastName = "Verbecque", Email = "verbecquet@gmail.com", Role = "Guard" },
-                    new User { FirstName = "Lenn", LastName = "Van Genechten", Email = "lennvangenechten@gmail.com", Role = "Guard" }
+                    new User { FirstName = "John", LastName = "Banko", Email = "johnbanko@gmail.com", Role = "Teamlead" },
+                    new User { FirstName = "Bert", LastName = "Janssens", Email = "bertjanssens@gmail.com", Role = "Teamlead" },
+                    new User { FirstName = "Jan", LastName = "Peeters", Email = "peetersj@gmail.com", Role = "Teamlead" }
+                    );
+
+                context.SaveChanges();
+
+                // Look for any Guards.
+                if (context.Guards.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+                //Add Guards
+                context.AddRange(
+                    new Guard { FirstName = "Jonas", LastName = "Van den Berg", Email = "jonasvandenberg@outlook.com", Role = "Guard", PhoneNumber = "0472893644" },
+                    new Guard { FirstName = "Victor", LastName = "Verhavert", Email = "victorverhavert@gmail.com", Role = "Guard", PhoneNumber = "0473593644" },
+                    new Guard { FirstName = "Arne", LastName = "Vanhove", Email = "vanhovearne@gmail.com", Role = "Guard", PhoneNumber = "0491193644" },
+                    new Guard { FirstName = "Jesse", LastName = "Dierckx", Email = "jessedierckx@gmail.com", Role = "Guard", PhoneNumber = "0221893644" },
+                    new Guard { FirstName = "Tim", LastName = "Verbecque", Email = "verbecquet@gmail.com", Role = "Guard", PhoneNumber = "0472921644" },
+                    new Guard { FirstName = "Lenn", LastName = "Van Genechten", Email = "lennvangenechten@gmail.com", Role = "Guard", PhoneNumber = "0472619644" }
+                    );
+
+                context.SaveChanges();
+
+                // Look for any EventUsers.
+                if (context.EventUsers.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+                //Add EventUsers
+                context.AddRange(
+                    new EventUser { EventId = 1, UserId = 2 },
+                    new EventUser { EventId = 1, UserId = 3 },
+                    new EventUser { EventId = 1, UserId = 7 },
+                    new EventUser { EventId = 1, UserId = 8 },
+                    new EventUser { EventId = 1, UserId = 9 },
+                    new EventUser { EventId = 1, UserId = 4 },
+                    new EventUser { EventId = 2, UserId = 5 },
+                    new EventUser { EventId = 2, UserId = 6 },
+                    new EventUser { EventId = 2, UserId = 10 },
+                    new EventUser { EventId = 2, UserId = 11 },
+                    new EventUser { EventId = 2, UserId = 12 }
                     );
 
                 context.SaveChanges();
